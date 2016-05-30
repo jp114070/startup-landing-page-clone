@@ -26,33 +26,30 @@ body {
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
-    li
 }
 ul.links, 
 ul.links a, 
 ul.links li {
-    height: 100%;
-    display: block;
-    line-height: 70px;
+    /* height: 100%; */
+    /* display: block; */
+    /* line-height: 70px; */
 }
 li {
-    transition: background-color 2s ease-out;
+    transition: background-color 9s ease-out;
 }
-li:hover {
+a:hover {
     color: black;
     cursor: pointer;
 }
 .top-navigation {
-    height: 4.735rem;
+    height: 70px;
     background-color: white;
+    line-height: 70px;
 }
 .logo {
     height: 70px;
     width: 26px;
     padding-right: 0px;
-}
-ul > li {
-    display: inline-block;
 }
 .top-navigation .links {
     float: right;
@@ -83,7 +80,6 @@ ul > li {
     background-position: 0 bottom;
     background-position: 50% 100%;
 	overflow: auto;
-	background
    }
 .introduction {
 	height: 570px;
@@ -125,4 +121,29 @@ button:hover {
     cursor: pointer;
 }
 
+.cases h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align: center;
+  	color: black;
+}
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.devices img {
 
+	
+}
