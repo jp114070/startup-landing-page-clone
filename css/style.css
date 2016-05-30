@@ -45,6 +45,9 @@ a:hover {
     height: 70px;
     background-color: white;
     line-height: 70px;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .logo {
     height: 70px;
@@ -138,7 +141,7 @@ button:hover {
     width: 33.3333333%;
     display: block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
     float: left;
     text-align: center;
