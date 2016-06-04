@@ -145,8 +145,13 @@ button:hover {
     box-sizing: border-box;
     float: left;
     text-align: center;
-}
-.devices img {
+    font-family: 'Roboto', sans-serif;
 
-	
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;	
+    color: black;
+    text-align: center;
 }
