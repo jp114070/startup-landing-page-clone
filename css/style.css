@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
     padding: 0 10px;
 }
-.top-navigation .links > .active {
+.top-navigation > .links > .active {
     color: #4c5058;
     font-weight: 500;
 }
@@ -83,13 +83,12 @@ a:hover {
 
 }
 .introduction > h1 {
-	color: white;
+	font-family: 'Roboto', sans-serif;
+    color: white;
 	text-align: center;
 	font-weight: 300;
 	margin-top: 140px;
 	margin-bottom: 0px;
-}
-.introduction > h1 {
 	font-size: 3.125rem;
 }
 .introduction > h3 {
@@ -118,7 +117,7 @@ button:hover {
     cursor: pointer;
 }
 
-.cases h2 {
+.cases > h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
@@ -129,7 +128,8 @@ button:hover {
 .cases {
 	background-color: #fff;
 	overflow: hidden;
-	padding-bottom: 5rem;
+	padding-bottom: 10rem; 
+    size: 875px 550px;
 }
 .cases .devices {
     width: 33.3333333%;
